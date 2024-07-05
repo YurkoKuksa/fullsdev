@@ -1,21 +1,20 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 
 import App from "./App";
 import { GlobalStyle } from "./styles/GlobalStyle";
-// import { ThemeProvider } from "styled-components";
-// import { theme } from "./styles/theme";
-// import { BrowserRouter } from "react-router-dom";
+import { ThemeProvider } from "styled-components";
+import { theme } from "./styles/theme";
+import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
-    {/* <BrowserRouter basename="/fullsdev"> */}
-    {/* <ThemeProvider theme={theme}> */}
-    <App />
-    <GlobalStyle />
-    {/* </ThemeProvider> */}
-    {/* </BrowserRouter> */}
+    <BrowserRouter basename="/fullsdev">
+      <ThemeProvider theme={theme}>
+        <App />
+        <GlobalStyle />
+      </ThemeProvider>
+    </BrowserRouter>
   </>
 );
 

@@ -62,22 +62,3 @@ body {
 
 
 `;
-
-/* html, body {
- overflow: ${($isopen) => ($isopen ? "hidden" : "visible")};
-
-} */
-// html, body {
-// /* overflow: ${($isopen) => ($isopen ? "hidden" : "visible")}; */
-// overflow: visible;
-// }
-//  body.noScroll {
-//     overflow: hidden;
-//   }
-
-/* body {
-  overflow: ${(open) => (open ? "hidden" : "visible")}
-} */
-/* html, body {
-overflow: ${(isopen) => (isopen ? "hidden" : "scroll")};
-} */
