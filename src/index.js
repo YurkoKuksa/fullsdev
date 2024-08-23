@@ -16,7 +16,7 @@ root.render(
       </ThemeProvider>
     </BrowserRouter> */}
 
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/fullsdev">
       <App />
     </BrowserRouter>
   </>
